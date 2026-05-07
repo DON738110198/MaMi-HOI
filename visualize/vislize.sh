@@ -1,0 +1,1 @@
+xvfb-run -a -s "-screen 0 1920x1080x24"  python -m debugpy --listen localhost:60488 --wait-for-client gen_vis_res.py --input_path=/data3/wh/hoi_diffusion_model/HOI_Diff/save/behave_enc_512/samples_behave_enc_512_000020000_seed10/results.npy

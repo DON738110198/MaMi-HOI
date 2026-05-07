@@ -1,0 +1,49 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Logs and experiment outputs
+wandb/
+runs/
+outputs/
+results/
+checkpoints/
+pretrained_models/
+*_results/
+*_output/
+*.log
+
+# Generated media and mesh dumps
+*.mp4
+*.avi
+*.mov
+*.ply
+*.obj
+*.blend1
+
+# Large checkpoints / feature extractors
+*.tar
+*.pt
+*.pth
+*.ckpt
+!bps.pt
+
+# Local processed datasets
+processed_data/
+dataset/
+
+# Licensed body-model assets
+data/body_models/smpl/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
