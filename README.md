@@ -1,8 +1,24 @@
-# MaMi-HOI
+<div align="center">
 
-[![arXiv](https://img.shields.io/badge/arXiv-2605.05756-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2605.05756)
+<h1>MaMi-HOI: Harmonizing Global Kinematics and Local Geometry for Human-Object Interaction Generation</h1>
 
-![MaMi-HOI Teaser](teaser.png)
+<h2>ICML 2026</h2>
+
+<p>
+  <a href="https://arxiv.org/abs/2605.05756">
+    <img src="https://img.shields.io/badge/arXiv-2605.05756-b31b1b.svg?logo=arXiv" alt="arXiv">
+  </a>
+</p>
+
+<p>
+  Hao Wang, Shiqi Wang, <a href="https://drliuqi.github.io/">Qi Liu</a><sup>*</sup>
+</p>
+
+<p><sup>*</sup> Corresponding author</p>
+
+<img src="teaser.png" alt="MaMi-HOI Teaser" width="90%">
+
+</div>
 
 This repository contains the training, sampling, evaluation, and visualization code for MaMi-HOI, a text- and geometry-conditioned human-object interaction synthesis project on OMOMO-style manipulation sequences. Given language descriptions, object geometry, initial human/object states, and optional scene or path conditions, the model synthesizes coordinated human motion and object motion.
 
