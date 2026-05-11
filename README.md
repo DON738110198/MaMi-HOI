@@ -1,5 +1,7 @@
 # MaMi-HOI
 
+[![arXiv](https://img.shields.io/badge/arXiv-2605.05756-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2605.05756)
+
 ![MaMi-HOI Teaser](teaser.png)
 
 This repository contains the training, sampling, evaluation, and visualization code for MaMi-HOI, a text- and geometry-conditioned human-object interaction synthesis project on OMOMO-style manipulation sequences. Given language descriptions, object geometry, initial human/object states, and optional scene or path conditions, the model synthesizes coordinated human motion and object motion.
